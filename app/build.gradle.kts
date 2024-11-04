@@ -40,4 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("org.mongodb:mongodb-driver-kotlin-sync:5.2.0")
+    implementation("org.mongodb:bson-kotlinx:5.2.0")
 }
